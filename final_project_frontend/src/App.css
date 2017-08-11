@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Shrikhand');
+
+html {
+    background-color: #eac67a;
+    background-image: url("main.jpg");
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+
+}
+
+.App {
+    text-align: center;
+}
+
+.header {
+    padding: 5px;
+    font-family: "comfortaa";
+    font-size: 60px;
+    letter-spacing: 8px;
+    font-style: bold;
+    color: white;
+    text-shadow: 4px 2px #eac67a;
+}
+
+.header h2{
+    margin: 100px;
+}
+
+.App-header2 {
+    font-family: "shrikhand";
+    font-size: 24px;
+    letter-spacing: 8px;
+    color: white;
+    text-shadow: 2px 2px #2B3D6E;
+}
+
+.app-header2 h4 {
+    margin: 0;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.returned_emails {
+    padding: 5px;
+    margin: 15px;
+    font-family: "shrikhand";
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #984b43;
+}
+
+.input {
+    text-align: center;
+    color: #2B3D6E;
+    padding: 5px;
+    border: solid 5px #C0C0C0;
+    box-shadow: inset 0 0 0 .5px v;
+    transition: box-shadow 0.3s, border 0.3s;
+    font-family: "workSans";
+    font-size: 12px;
+    font-style: italic;
+    width: 18%;
+
+}
+
+.input:focus {
+    outline-color: #984b43;
+}
+
+.button {
+    background-color: #eac67a;
+    font-family: "shrikhand";
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: #2B3D6E;
+    width: 20%;
+}
+
+.button:focus {
+    outline-color: #984b43;
+}
